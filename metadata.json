@@ -1,0 +1,5 @@
+{
+  "name": "MoodAdapt",
+  "description": "A modern, responsive web application that generates personalized music and activity recommendations based on your mood, featuring three fully interactive and playable games.",
+  "requestFramePermissions": []
+}
