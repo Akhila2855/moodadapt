@@ -1,5 +1,7 @@
 {
-  "name": "MoodAdapt",
-  "description": "A modern, responsive web application that generates personalized music and activity recommendations based on your mood, featuring three fully interactive and playable games.",
-  "requestFramePermissions": []
+  "name": "Mood Set App",
+  "description": "A personalized mood sync system using facial scanning, curated music, and behavioral tasks.",
+  "requestFramePermissions": [
+    "camera"
+  ]
 }

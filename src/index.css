@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Times New Roman", Times, serif;
+  --color-accent: #06b6d4; /* cyan-500 */
+}
+
+@layer base {
+  body {
+    @apply font-serif bg-[#050505] text-slate-100;
+  }
+}
+
+/* Custom range slider styling */
+input[type='range']::-webkit-slider-thumb {
+  @apply w-8 h-8 bg-white rounded-3xl border-4 border-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.6)] cursor-pointer appearance-none transition-all hover:scale-110 active:scale-95;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Interactive card hover */
+.interactive-card {
+  @apply transition-all duration-300 hover:shadow-[0_20px_40px_rgba(6,182,212,0.1)] hover:-translate-y-1 border-white/5 hover:border-cyan-500/30;
+}
+
